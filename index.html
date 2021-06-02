@@ -1,0 +1,31 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+  <audio id="bass-song" src="sounds/bass-song.wav" preload="auto"></audio>
+    <audio id="woodsound" src="sounds/woodsound.mp3" preload="auto"></audio>
+    <audio id="moneysound" src="sounds/moneyroll.wav" preload="auto"></audio>
+
+  <head>
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="startSong()">
+    <div id="game">
+
+      <div id="boll"></div>
+      <div id="score">Click anywhere to start playing the game!<br><br>
+      -> Move brick to the right<br>
+      <- Move brick to the left<br>
+      Escape to paus the game<br>
+      Return to resume playing
+      </div>
+      <div id="brick"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

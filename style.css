@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+     width: 500px;
+     height:500px;
+     border: 1px solid black;
+     background-color: skyblue;
+}
+#brick{
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 490px;
+    left: 235px;
+}
+#boll{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    background-color: snow;
+}
+#score{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
